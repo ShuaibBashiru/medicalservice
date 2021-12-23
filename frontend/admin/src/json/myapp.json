@@ -1,0 +1,17 @@
+{
+"media":{
+    "facebook": "https://www.facebook.com/",
+    "twitter": "https://www.twitter.com/",
+    "instagram": "https://www.instagram.com/",
+    "youtube": "https://www.youtube.com/"
+},
+"appinfo":{
+    "appname": "Mainland Hospital",
+    "bg_color": "bg-light",
+    "f_color": "",
+    "logo": "logo.png",
+    "logoHeight": 30,
+    "logoWidth": 35
+}
+
+}

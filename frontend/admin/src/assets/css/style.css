@@ -1,0 +1,59 @@
+.site_logo{
+    width:30px;
+    height: 24px;
+}
+.navbar-nav li .nav-link{
+color: #0a010196;
+font-size: 15px;
+}
+.list-group-flush li{
+border:0;
+background-color: #f5f5f5;
+}
+.list-group-flush li>a{
+background-color: #efe9f10a;
+text-decoration: none;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    color: #000000de;
+}
+.header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 2000;
+    background-color: #f5f5f5;
+   }
+
+.sidebar{
+display: none;
+}
+@media (min-width: 768px) {
+.sidebar {
+    position: fixed;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; 
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+}
+}
+
+.maindiv {
+position: fixed;
+top: 60px;
+bottom: 0;
+right: 0;
+z-index: 1000;
+padding: 20px;
+overflow-x: hidden;
+overflow-y: auto; 
+background-color: #fff;
+}
